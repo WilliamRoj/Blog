@@ -151,6 +151,10 @@ p {
     padding: 1em 0;
 }
 
+.blog-btn{
+    background-color: #BBB4B4;
+}
+
 .btn {
     display: inline-block;
     background-color: #333;
@@ -237,17 +241,6 @@ p {
     padding: 2em;
 }
 
-/* Section D / Boxes */
-
-#section-d .box {
-    padding: 2em;
-    color: #fff;
-}
-
-#section-d .box:first-child {
-    background-color: #2690d4;
-}
-
 /* Footer */
 
 #main-footer {
@@ -285,14 +278,4 @@ p {
     .box, #main-footer div {
         grid-column: span 2;
     }
-
-    #section-b ul {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    #section-b li {
-        width: 31%;
-    }
-
 }
