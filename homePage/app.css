@@ -295,6 +295,24 @@ p {
     text-decoration: none;
 }
 
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook, .instagram, 
+.twitter, .linkedin {
+    width: 30px;
+}
+
+.facebook:hover, .instagram:hover, 
+.twitter:hover, .linkedin:hover {
+    width: 35px;
+    background-color: #fff;
+    border-radius: 30%;
+    margin: 5px;
+}
+
 @media(min-width: 700px) {
     .grid {
         display: grid;
