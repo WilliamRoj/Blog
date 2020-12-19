@@ -32,6 +32,7 @@
     display: block;
     font-size: 2em;
     padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header .menu {
@@ -144,15 +145,29 @@ img {
 h1, h2, h3 {
     margin: 0;
     padding: 1em 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     margin: 0;
     padding: 1em 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+i {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #cfcbca;
 }
 
 .blog-btn{
     background-color: #BBB4B4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-btn {
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn {
