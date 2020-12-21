@@ -1,0 +1,31 @@
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook, .instagram, 
+.twitter, .linkedin {
+    width: 30px;
+}
+
+.facebook:hover, .instagram:hover, 
+.twitter:hover, .linkedin:hover {
+    width: 35px;
+    background-color: #fff;
+    border-radius: 30%;
+    margin: 5px;
+}
